@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutBackground"
+    tools:context=".DesiredCityActivity">
+
+    <TextView
+        android:id="@+id/textNameTabe2"
+        style="@style/TitleText"
+        android:text="@string/projectAppName" />
+
+    <TextView
+        android:id="@+id/resultWeatherTabe2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonForSearchWeatherTabe2"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="138sp"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/resultWeatherTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonForSearchWeatherTabe2"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="61sp" />
+
+    <EditText
+        android:id="@+id/fieldForCityTabe2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNameTabe2"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="100sp"
+        android:backgroundTint="@color/mainOrange"
+        android:ems="10"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:hint="@string/hintFieldForCityTabe2"
+        android:inputType="textPersonName"
+        android:minHeight="48sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey" />
+
+    <Button
+        android:id="@+id/buttonForSearchWeatherTabe2"
+        android:layout_marginHorizontal="130sp"
+        android:layout_below="@+id/fieldForCityTabe2"
+        android:text="@string/buttonForSearchWeatherTabe2"
+        style="@style/RequestButton"/>
+
+    <Button
+        android:id="@+id/ButtSwitchToAboutApp_D"
+        style="@style/LayerSwitchButton"
+        android:layout_marginTop="700sp"
+        android:onClick="buttSwitchToAboutD"
+        android:text="@string/AboutAppButton" />
+
+</RelativeLayout>

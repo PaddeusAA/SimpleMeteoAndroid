@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="projectAppName">SimpleMeteo</string>
+    <string name="AboutAppButton">О Программе</string>
+    <string name="TextThemeSetting">Темы Приложения</string>
+
+
+    <string name="hintFieldForCityTabe2">Берлин</string>
+    <string name="buttonForSearchWeatherTabe2">Узнать погоду</string>
+    <string name="buttonGitHub">Проект на GitHub</string>
+    <string name="buttonFeedback">Обратная связь</string>
+
+    <string name="textSetting"> Настройки</string>
+    <string name="textTheme"> Настройка темы</string>
+    <string name="notEnteredText">Введите текст</string>
+    <string name="info_app">Версия программы:   2.0\nАвтор:   Гинсбург В.В.</string>
+
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
